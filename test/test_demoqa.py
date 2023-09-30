@@ -35,7 +35,8 @@ def test_demoqa():
     browser.element('.table').all('td:nth-of-type(2)').should(have.texts(
         'Anna Torgova',
         'test_anna@mail.ru',
-        'Female', '7999000112',
+        'Female',
+        '7999000112',
         '26 November,1996',
         'Arts',
         'Sports, Reading, Music',
